@@ -1,0 +1,15 @@
+{
+  "name": "line-oa-bakery-bot",
+  "version": "1.0.0",
+  "description": "LINE OA bot สำหรับจดจำออเดอร์ขนมและแจ้งเตือนตอน 8 โมงเช้า",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.7.0",
+    "dayjs": "^1.11.10",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
